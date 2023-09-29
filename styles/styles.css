@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size:16px ;
+    font-family: montserrat, mooli ;
+}
+
 nav {
     background-color: steelblue;
     padding: 5px;
@@ -5,7 +15,7 @@ nav {
 nav a {
     color:yellow;
     display: block;
-    padding: 20px;
+    padding: 5px;
 }
 h1 {
     color:steelblue
@@ -15,18 +25,19 @@ img{
     height: auto;
     border: 1px solid slateblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px  palegoldenrod;
 }
 
 main{
     max-width: 800px;
 }
 aside{
-    width:20rem;
+    position: relative;
+    width: 400px;
     margin: 1rem;
-    border: 1px solid red;
+    border: 1px solid greenyellow;
     background-color: #eee;
-    color: #333;
+    color: green;
     text-align: center;
 }
 
@@ -34,13 +45,28 @@ aside img{
     width:200px;
     height: auto;
 }
+
+aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
 main img{
     width:150px;
     height: auto;
+    border:1px  solid steelblue ;
+    float:right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
-    padding: 0;
+    margin :1rem
+    left: 50px;
+}
+
+li {
+    margin-bottom: 1rem;
+    list-style-type: circle;
 }
 
 footer {
@@ -48,4 +74,18 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 
+}
+
+
+/*Class selectors*/
+.box  {
+    margin: 1rem;
+    border:1px solid peachpuff ;
+    background-color: antiquewhite;
+    width : 20em;
+    text-align: center ;
+}
+
+.indent {
+    margin-left: 1rem;
 }
