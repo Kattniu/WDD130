@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2? family= Borel & family= Inclusive+Sans & family= Mooli & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Mooli&display=swap');
 
 body {
     padding: 20px;
     max-width: 960px;
-    font-family: var(Mooli);
+    font-family:var(inclusive sans);
     background-color: whitesmoke;
         }
 
@@ -11,25 +11,38 @@ main {
     max-width: 800px;
         }
 p {
-    padding: 25px;
-        }
+    background-color: antiquewhite;
+    font-family: Mooli;
+    color: brown;
+     
+}
+        
 
 header {
     padding: 20px;
-    background-color: bisque;
+    margin: 20px;
         }
  h1 , h2, h3, h4 {
     font-family:var(inclusive sans);
     color :green;
+    
+        }
+
+div {
+    font-size: 30px;
+    color: palevioletred;
+    width: 30px;
+    margin: 10px;
+    font-family: Mooli;
         }
 
 .colored {
     max-width: 800px;
-    color: yellow;
+    color: burlywood;
         }
 
 nav {
-    background-color: brown;
+    background-color: cadetblue;
     font-size: 1.2rem;
     display: flex;
 }
@@ -60,6 +73,6 @@ nav a:active{
 
 footer {
     background-color: wheat;
-    padding: 10px;
+    padding: 20px;
     color: black;
         }
