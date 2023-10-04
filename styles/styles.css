@@ -32,7 +32,9 @@ main{
     max-width: 800px;
 }
 aside{
-    position: relative;
+    width: 200px;
+    height: auto;
+    position:static;
     width: 400px;
     margin: 1rem;
     border: 1px solid greenyellow;
