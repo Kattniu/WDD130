@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Mooli&family=Roboto&display=swap');
+/*{}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(30deg, #e1a4e2 12%, transparent 12.5%, transparent 87%, #e1a4e2 87.5%, #e1a4e2), linear-gradient(150deg, #e1a4e2 12%, transparent 12.5%, transparent 87%, #e1a4e2 87.5%, #e1a4e2), linear-gradient(30deg, #e1a4e2 12%, transparent 12.5%, transparent 87%, #e1a4e2 87.5%, #e1a4e2), linear-gradient(150deg, #e1a4e2 12%, transparent 12.5%, transparent 87%, #e1a4e2 87.5%, #e1a4e2), linear-gradient(60deg, #e1a4e277 25%, transparent 25.5%, transparent 75%, #e1a4e277 75%, #e1a4e277), linear-gradient(60deg, #e1a4e277 25%, transparent 25.5%, transparent 75%, #e1a4e277 75%, #e1a4e277);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    display: flex;
+    min-height: 300%;
+}
+.form {
+    background-color: #e5e5f7;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 4.5rem 3rem;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px -5px black;
+
+}
+img{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.form_title {
+    font-size: 30px;
+    color: rgb(0 0 0);
+    margin: .5em;
+
+}
+
+.container{
+    margin-top: 20px;
+    display: grid;
+    gap:2.5em;
+
+}
+
+.grupo{
+    position: relative;
+    --color: #5757577e;
+}
+
+.grupo input{
+    width:100% ;
+    background:whitesmoke;
+    color: gray;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 10px;
+     font-family: 'Roboto';
+     border-bottom: 1px solid var(--color);
+}
+
+  label {
+    cursor: pointer;
+    color:rebeccapurple;
+    top:0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+
+}
+
+.radio{
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+#q4{
+    width: 100%;
+}
+
+.boton{
+    width: 100%;
+    cursor:pointer;
+}
