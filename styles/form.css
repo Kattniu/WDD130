@@ -86,10 +86,7 @@ h1{
   label {
     cursor: pointer;
     color:rebeccapurple;
-    top:0;
     left: 5px;
-    transform: translateY(10px);
-    transition: transform .5s, color .3s;*/
 
 }
 
