@@ -8,28 +8,48 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
     background-color: #e5e5f7;
     background-image:  linear-gradient(30deg, #e1a4e2 12%, transparent 12.5%, transparent 87%, #e1a4e2 87.5%, #e1a4e2), linear-gradient(150deg, #e1a4e2 12%, transparent 12.5%, transparent 87%, #e1a4e2 87.5%, #e1a4e2), linear-gradient(30deg, #e1a4e2 12%, transparent 12.5%, transparent 87%, #e1a4e2 87.5%, #e1a4e2), linear-gradient(150deg, #e1a4e2 12%, transparent 12.5%, transparent 87%, #e1a4e2 87.5%, #e1a4e2), linear-gradient(60deg, #e1a4e277 25%, transparent 25.5%, transparent 75%, #e1a4e277 75%, #e1a4e277), linear-gradient(60deg, #e1a4e277 25%, transparent 25.5%, transparent 75%, #e1a4e277 75%, #e1a4e277);
     background-size: 20px 35px;
     background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
-    display: flex;
-    min-height: 300%;
+    min-height: 200%;
 }
 .form {
+    font-size: 15px;
     background-color: #e5e5f7;
     text-align: center;
     margin: auto;
-    width: 90%;
-    padding: 4.5rem 3rem;
-    max-width: 400px;
+    width: 100%;
+    padding: 20px 30px;
+    max-width: 70%;
     border-radius: 15px;
     box-shadow: 0 5px 15px -5px black;
 
 }
 img{
     padding-top: 10px;
-    width: 100%;
+    width: 50%;
+}
+footer{
+    background-color: #e1a4e2;
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+main{
+    padding: 20px;
+    margin: 50px;
+}
+
+h1{
+    padding:10px;
+    margin: 10px;
+    color: blueviolet;
+    background-color: white;
+    text-align: center;
+    font-size: 15px
 }
 
 .form_title {
@@ -69,7 +89,7 @@ img{
     top:0;
     left: 5px;
     transform: translateY(10px);
-    transition: transform .5s, color .3s;
+    transition: transform .5s, color .3s;*/
 
 }
 
@@ -78,10 +98,12 @@ img{
     font-size: 1rem;
 }
 #q4{
+    padding: 20px;
     width: 100%;
 }
 
 .boton{
-    width: 100%;
+    width: 30%;
     cursor:pointer;
 }
+
