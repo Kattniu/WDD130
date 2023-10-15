@@ -143,3 +143,61 @@ h1, h2 {
     color:olivedrab;
 
 }
+/*------------------------- Contact Us-------------------------------------------------------------------------------*/
+.information{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+form{
+    width: 100%;
+    padding: 20px 30px;
+    background-color:bisque;
+    text-align: center;
+    margin: auto;
+    max-width: 70%;
+    border-radius: 15px;
+}
+input, button{
+    cursor: pointer;
+}
+
+label{
+    color: black;
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+
+.texto{
+    width:100% ;
+    background-color: lemonchiffon;
+    font-size: 15px;
+    border:none;
+    padding: 5px;
+    font-family: 'Roboto';
+    border-bottom: 1px solid yellow;
+}
+
+.imagen{
+    display: grid;
+    grid-template-columns: 50% 50% 50% ;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+    
+}
+.photo img{
+    left: 100px;
+    position:relative;
+    width: 70%;
+    height: auto;
+    border: 5px solid burlywood;
+    margin: 15px;
+    padding: 15px;
+}
