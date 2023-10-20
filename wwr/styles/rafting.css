@@ -155,16 +155,30 @@ p{
 }
 
 form{
-    width: 100%;
+    width: 50%;
     padding: 20px 30px;
     background-color:bisque;
     text-align: center;
     margin: auto;
-    max-width: 70%;
+    max-width: 50%;
     border-radius: 15px;
+
 }
 input, button{
     cursor: pointer;
+}
+
+button{
+    width: 20%;
+    padding: 20px 30px;
+    background-color:cadetblue;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 5px 5px 1px gray;
+    margin: 20px;
+    max-width: 40%;
+    border-radius: 15px;
 }
 
 label{
@@ -184,22 +198,32 @@ label{
 }
 
 .imagen{
-    display: grid;
-    grid-template-columns: 50% 50% 50% ;
     justify-content: space-between;
-    width: 50%;
+    line-height: 0;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;  
+    column-count: 3;
+    font-family: "Montserrat";
     padding: 10px;
+    text-align: center;
+ 
     
 }
-.photo img{
-    left: 100px;
-    position:relative;
-    width: 70%;
-    height: auto;
-    border: 5px solid burlywood;
-    margin: 15px;
-    padding: 15px;
+.photo img {
+    display:inline-block;
+    width: auto;
+    height: 200px;
+    margin-top: 20%;
+    margin-bottom: 15px;
+    text-align: center;
+
 }
+.photo figcaption{
+    font-size: 1rem;
+    color:black;
+    font-style: italic;
+}
+
 /*----------------------------------------------------------------------trips----------------------------------------------------*/
 .grid{
     padding:20px;
@@ -210,9 +234,6 @@ label{
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 15px;
     box-shadow: 0 5px 15px -5px gray
-}
-.headertrips{
-    border-bottom:5px solid  white;
 }
 .article{
     margin: 1em;
