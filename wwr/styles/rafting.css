@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Mooli&family=Roboto&display=swap');
-
 :root {
     --color-primario: #f3f3f3;
     --bg-primario: #eee;
@@ -13,18 +12,18 @@
     box-sizing: border-box;
 }
 body {
-    padding: 1rem;
-    background-color: antiquewhite;
+     background-color: antiquewhite;
     text-align: center;
 
  }  
  header{
     display:inline-flex;
-    padding: 20px;
+    padding: 10px;
 }
 header img {
-    padding: 10px;
-    margin: 20px;
+    padding: 15px;
+    top: 10%;
+    width:150px;
  }  
 section {
     padding: 20px;
@@ -34,8 +33,6 @@ section {
     font-size: 30px;
     font-family: Montserrat;
  }  
-
-
 h1, h2 {
         text-align: center;
         color: burlywood;
@@ -125,29 +122,32 @@ h1, h2 {
 }
 
 .encabezado{
-    margin-top: 5%;
-    background-color: blanchedalmond;
-    padding: 1rem;
+    position: relative;
     display: flex;
-    justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
+    margin-top: 3rem;
+    justify-content: center;
+    font-weight: bolder;
+    justify-content: space-evenly ;
+    background-color: blanchedalmond ;
+   
 }
 .encabezado a  {
-    display: block;
-    margin: 30px;
-    padding: 20px;
+    display:inline-block;
     text-decoration: none;
+    position: relative;
     font-size: 20px;
-    font-weight: 800;
-    color:olivedrab;
-
-}
-/*------------------------- Contact Us-------------------------------------------------------------------------------*/
-.information{
-    padding: 20px;
+    justify-content: space-between ;
+    background-color: blanchedalmond;
+    padding: 50px;
     margin: 10px;
-    text-align: center;
+    min-height: 80px;
+    color:olivedrab;
 }
+.encabezado a:hover {
+    background-color:cornsilk;
+    }
+/*------------------------- Contact Us-------------------------------------------------------------------------------*/
 p{
     font-size: 20px;
     padding: 10px;
@@ -164,11 +164,11 @@ form{
     border-radius: 15px;
 
 }
-input, button{
+input {
     cursor: pointer;
 }
 
-button{
+.button{
     width: 20%;
     padding: 20px 30px;
     background-color:cadetblue;
@@ -222,6 +222,11 @@ label{
     font-size: 1rem;
     color:black;
     font-style: italic;
+}
+.information{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
 }
 
 /*----------------------------------------------------------------------trips----------------------------------------------------*/
@@ -341,3 +346,44 @@ tr:hover {
     font-size: 20px;
     color: cadetblue;
   }
+/*---------------------------------------------- Home container ------------------------------------------------------------------------------*/
+.header_index {
+    position: relative;
+    height: 8vh;
+    margin: 4%;
+}
+.header_index a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 50px;
+    transition: all .5s ease-in-out;
+}
+.header_index img{
+    max-width: 100%;
+    position: absolute;
+    top: -10%;
+    width: 115px;
+    left: -100px;   
+}
+.width_image h1 {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat';
+    display:flex;
+    top: 35%;
+    left: 50%;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: rgba(253, 250, 240, 0.6);
+    border-radius: 10px;
+}
+
+.form_index h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    background-color: rgb(139, 199, 179);
+    color: white;
+    font-weight: normal;
+}
