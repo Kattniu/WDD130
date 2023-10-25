@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="styles/rafting.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Contact Us</title>
 
 </head>
@@ -21,42 +22,46 @@
         </nav>
     </header>
     
-    <main> 
+<main> 
 
         <h1>Contact Us</h1>
         <div class="information">
-           <p>Address: Lima- Peru</p>
-           <p>Phone Number: (+51)993 945 343</p>
-           <p>Email:kathe12344.com</p>
+           <p><i class='bx bx-home-heart'> Address: Lima - Peru</i></p>
+           <p><i class='bx bx-phone-call'> Phone Number: (+51)993 945 343</i></p>
+           <p><i class='bx bx-envelope' > Email:kathe12344.com</i></p>
         </div>
         
         <div class="map">
             <!--Esto es para agregar un mapa en tu pagina-->
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1950.3178564328518!2d-77.02718056260093!3d-12.137058758966875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1697289730366!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">             
             </iframe>
-        <h1>Our Employers</h1>
-        <p>We are the Rafting team, we are here to help you and give you the best of our services. 
-            <br>We are here for you.</p>
         </div>
-        <figure class="imagen">
-            <div class="photo" >
-            <img src="images/smile.jpg" alt="employer">
-            <figcaption>- Rafting instructor - </figcaption>
-            </div>
-            
-            <div class="photo" >
-            <img src="images/smilee.jpg" alt="employer">
-            <figcaption>- The interpreter - </figcaption>
-            </div>
 
-            <div class="photo" >
-            <img src="images/smileee.jpeg" alt="employer">
-            <figcaption>- Rafting Instructor- </figcaption>
-            </div>
-        </figure>
-
+    <div class="employers">
+        <div>
+            <h1>Our Employers</h1>
+                <p>We are the Rafting team, we are here to help you and give you the best of our services. 
+                <br>We are here for you.</p>
+            <figure class="imagen">
+                    <div class="photo" >
+                        <img src="images/smile.jpg" alt="employer">
+                        <figcaption>- Rafting instructor - </figcaption>
+                    </div>
+                    <div class="photo" >
+                        <img src="images/smilee.jpg" alt="employer">
+                        <figcaption>- The interpreter - </figcaption>
+                    </div>
+                    <div class="photo" >
+                        <img src="images/smileee.jpeg" alt="employer">
+                        <figcaption>- Rafting Instructor- </figcaption>
+                    </div>
+            </figure>
+        </div>
+    </div>
         
+    <div class="form_contact">
         <h1>Send Us a message</h1>
+        <div class="form_contact2">
         <form action="jgy" method="post" target="_blank">
             <div class="form">
             <label>Name:<input class="texto" type="text" id="name" name="name"></label>
@@ -79,7 +84,10 @@
             </div>
             <input class="button"  type="submit" value="Submit" />
         </form>
-    </main>
+        </div> 
+    </div>
+
+</main>
     <br>
 
     <footer>
